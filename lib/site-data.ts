@@ -84,7 +84,7 @@ export const teamMembers = [
   {
     name: "Ms Emily Kerton",
     role: "Lab manager",
-    image: "",
+    image: "/images/Emily2.jpeg",
     project: "Lab operations and research support",
     bio: "",
   },
