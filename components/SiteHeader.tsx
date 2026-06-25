@@ -13,7 +13,6 @@ export default function SiteHeader() {
         <nav className="nav" aria-label="Main navigation">
           <Link href="/contact">Contact</Link>
         </nav>
-        <div className="mobile-note">Menu links appear on desktop. Use direct page URLs on small screens.</div>
       </div>
     </header>
   );
