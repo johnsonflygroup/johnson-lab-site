@@ -43,7 +43,8 @@ export const tools = [
   {
     title: "SAMBA Behavioural Analysis Software",
     slug: "samba",
-    status: "Available at GitHub",
+    status: "Available on GitHub",
+    sourceUrl: "https://github.com/johnsonflygroup/SAMBA",
     summary:
       "Behavioural analysis software for quantifying disease-relevant phenotypes from small animal imaging data.",
     image: "/images/larvae-imaging.png",

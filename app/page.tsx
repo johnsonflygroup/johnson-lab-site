@@ -131,6 +131,7 @@ export default async function Home() {
                     <video
                       className="software-card-video"
                       src="/images/Example 10x speed.mp4"
+                      autoPlay
                       muted
                       loop
                       playsInline
@@ -147,7 +148,18 @@ export default async function Home() {
                     />
                   )}
                   <div className="caption">
-                    <span className="tag">{tool.status}</span>
+                    {tool.sourceUrl ? (
+                      <a
+                        className="tag"
+                        href={tool.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {tool.status}
+                      </a>
+                    ) : (
+                      <span className="tag">{tool.status}</span>
+                    )}
                     <h3>
                       <Link href={`/tools/${tool.slug}`}>{tool.title}</Link>
                     </h3>
